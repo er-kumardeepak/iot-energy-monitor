@@ -54,18 +54,29 @@ Web Browser (Real-time display)
 
 ### Setup
 
-**1. Backend (Terminal 1)**
+Run these commands in two separate terminals from the project root.
+
+**1. Start the backend (Terminal 1)**
 ```bash
 cd energy-backend
 npm install
 npm start
 ```
 
-**2. Frontend (Terminal 2)**
+**2. Start the dashboard/server (Terminal 2)**
 ```bash
 cd dashboard
 npm install
 npm run dev
+```
+
+**Optional: root-level shortcuts**
+```bash
+# Terminal 1
+cd energy-backend && npm install && npm start
+
+# Terminal 2
+cd dashboard && npm install && npm run dev
 ```
 
 **3. ESP32 Firmware (Arduino IDE)**
